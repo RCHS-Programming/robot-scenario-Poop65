@@ -24,12 +24,31 @@ public class Robot extends Actor
         {
             removeTouching(Robot.class);
             setLocation( 50, 50);
+            Greenfoot.playSound ("hurt.wav");
         }
     }
-        if(isTouching(Block.class))
+    {  
+    if(isTouching(Block.class))
         {
             removeTouching(Robot.class);
             setLocation( 50, 50); 
+            Greenfoot.playSound ("hurt.wav");
         }
+    }
+    {
+        if(isTouching(Home.class))
+        {
+            removeTouching(Robot.class);
+            setLocation( 50, 50);
+            Greenfoot.playSound("yipee.wav");
+        }
+    }
+    {
+        if(isTouching(Pizza.class))
+        {
+            removeTouching(Pizza.class);
+            Greenfoot.playSound("eat.wav");
+        }
+    }
     }
 }
