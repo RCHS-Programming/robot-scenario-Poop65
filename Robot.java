@@ -1,6 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Robot extends Actor
 {
+    private GreenfootImage robotimage1= new GreenfootImage("man01.png");
+    private GreenfootImage robotimage2= new GreenfootImage("man02.png");
     public void act() 
     {
         if (Greenfoot.isKeyDown("left"))
@@ -49,6 +51,14 @@ public class Robot extends Actor
             removeTouching(Pizza.class);
             Greenfoot.playSound("eat.wav");
         }
+        
+        
+    
+    {
+        new GreenfootImage("man01.png");
+        new GreenfootImage("man02.png");
+        setImage ("man01.png");
     }
     }
-}
+    }
+}   
