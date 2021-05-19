@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class RobotWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Background of the game. Zane Kegley
  */
 public class RobotWorld extends World
 {
@@ -16,6 +13,6 @@ public class RobotWorld extends World
     public RobotWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(800, 600, 1); 
     }
 }
